@@ -39,3 +39,5 @@ Last name: <input type="text" name="lname" value="Beckham"><br>
 </body>
 </html>
 ```
+
+3. Write a JavaScript program to set the background color of a paragraph.

@@ -19,4 +19,9 @@ function getFormvalue() {
     }
 }
 
+function colorMe() {
+    text.style.color = "purple"
+    text.style.backgroundColor = "yellow"
+}
+
 /*** Render Functions ***/

@@ -20,8 +20,17 @@ function getFormvalue() {
 }
 
 function colorMe() {
-    text.style.color = "purple"
     text.style.backgroundColor = "yellow"
+    text.style.color = "purple"
+}
+
+function getAttributes() {
+    let href = document.querySelector("#w3r").href
+    let hreflang = document.querySelector("#w3r").hreflang
+    let rel = document.querySelector("#w3r").rel
+    let target = document.querySelector("#w3r").target
+    let type = document.querySelector("#w3r").type
+    alert(`href: ${href}\nhreflang: ${hreflang}\nrel: ${rel}\ntarget: ${target}\ntype: ${type}`)
 }
 
 /*** Render Functions ***/

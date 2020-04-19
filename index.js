@@ -50,4 +50,14 @@ function insert_Row() {
     // `
 }
 
+function changeContent() {
+    rowNum = window.prompt("Type a row number (0 or 1 or 2)", "your number here...")
+    colNum = window.prompt("Type a column number (0 or 1)", "your number here...")
+    content = window.prompt("Type cell content here:")
+    
+    // grab the targeted cell
+    userInput = document.querySelector("#myTable").rows[Number(rowNum, 10)].cells
+    userInput[Number(colNum, 10)].innerHTML = `${content}`
+}
+
 /*** Render Functions ***/

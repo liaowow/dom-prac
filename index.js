@@ -60,4 +60,19 @@ function changeContent() {
     userInput[Number(colNum, 10)].innerHTML = `${content}`
 }
 
+function createTable() {
+    rowNum = window.prompt("Insert number of rows", "type number here...")
+    colNum = window.prompt("Insert number of columns", "type number here...")
+
+    for (let i = 0; i < rowNum; i++) {
+        let newRow = document.querySelector("#myTable").insertRow(i)
+
+        for (let j = 0; j < colNum; j++) {
+            let newCell = newRow.insertCell(j)
+            newCell.innerHTML = `Row-${i+1} Column-${j+1}`
+        }
+
+    }
+}
+
 /*** Render Functions ***/

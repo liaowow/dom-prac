@@ -1,22 +1,12 @@
-/*** DOM Elements ***/
-let form = document.querySelector("#form1")
-// let href = document.querySelector("#w3r").href
-// let hreflang = document.querySelector("#w3r").hreflang
-// let rel = document.querySelector("#w3r").rel
-// let target = document.querySelector("#w3r").target
-// let type = document.querySelector("#w3r").type
-let sampleTable = document.querySelector("#sampleTable")
-
-/*** Event Listeners ***/
-
-
-/*** Event Handlers ***/
+/*** EXERCISE 1 ***/
 function js_style() {
     text.style.fontSize = 20
     text.style.fontFamily = "Futura"
     text.style.color = "purple"
 }
 
+/*** EXERCISE 2 ***/
+let form = document.querySelector("#form1")
 function getFormvalue() {
     for (let i = 0; i < form.length; i++) {
         if (form.elements[i].value !== "Submit") {
@@ -25,15 +15,19 @@ function getFormvalue() {
     }
 }
 
+/*** EXERCISE 3 ***/
 function colorMe() {
     text.style.backgroundColor = "yellow"
     text.style.color = "purple"
 }
 
+/*** EXERCISE 4 ***/
 function getAttributes() {
     alert(`href: ${href}\nhreflang: ${hreflang}\nrel: ${rel}\ntarget: ${target}\ntype: ${type}`)
 }
 
+/*** EXERCISE 5 ***/
+let sampleTable = document.querySelector("#sampleTable")
 function insert_Row() {
     let newRow = sampleTable.insertRow(2)
     let newCell1 = newRow.insertCell(0)
@@ -50,6 +44,7 @@ function insert_Row() {
     // `
 }
 
+/*** EXERCISE 6 ***/
 function changeContent() {
     rowNum = window.prompt("Type a row number (0 or 1 or 2)", "your number here...")
     colNum = window.prompt("Type a column number (0 or 1)", "your number here...")
@@ -60,6 +55,7 @@ function changeContent() {
     userInput[Number(colNum, 10)].innerHTML = `${content}`
 }
 
+/*** EXERCISE 7 ***/
 function createTable() {
     rowNum = window.prompt("Insert number of rows", "type number here...")
     colNum = window.prompt("Insert number of columns", "type number here...")
@@ -75,6 +71,7 @@ function createTable() {
     }
 }
 
+/*** EXERCISE 8 ***/
 function removecolor() {
     // grab DOM element
     let selected = document.querySelector("#colorSelect")
@@ -82,6 +79,7 @@ function removecolor() {
     selected.remove(selected.selectedIndex)
 }
 
+/*** EXERCISE 9 ***/
 function getOptions() {
     let mySelect = document.querySelector("#mySelect")
     let numOfItems = mySelect.length
@@ -90,6 +88,7 @@ function getOptions() {
     alert(`Number of items is ${numOfItems}. You picked ${selectedItem}.`)
 }
 
+/*** EXERCISE 10 ***/
 function getVolume() {
     let radius = Number(document.querySelector("#radius").value)
     // formula for a sphere's volume: 
@@ -100,6 +99,7 @@ function getVolume() {
     document.querySelector("#volumeOutput").value = volume
 }
 
+/*** EXERCISE 11 ***/
 function randomize() {
     let list = [
         {
@@ -127,4 +127,19 @@ function randomize() {
     img.height = randomItem.height
 }
 
-/*** Render Functions ***/
+/*** EXERCISE 12 ***/
+let boldWords = document.getElementsByTagName("strong")
+
+function highlight() {
+    for (let i = 0; i < boldWords.length; i++) {
+        boldWords[i].style.color = "green"
+    }
+}
+
+function return_normal() {
+    for (let i = 0; i < boldWords.length; i++) {
+        boldWords[i].style.color = "black"
+    }
+}
+
+/*** EXERCISE 13 ***/

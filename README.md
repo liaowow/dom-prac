@@ -163,3 +163,20 @@ Select your favorite Color :
 "http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg", width: "320", height: "195"
 "http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg", width: "500", height: "343"
 ```
+
+12. Write a JavaScript program to highlight the bold words of the following paragraph, on mouse over a certain link.
+```html
+<!doctype html>
+  <html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Get And Style All Tags</title>
+  </head>
+  <body> 
+  <p>[<a href="#" onMouseOver="highlight()" onMouseOut="return_normal()">On mouse over here bold words of the following paragraph will be highlighted</a>]</p> 
+<p><strong>We</strong> have just started <strong>this</strong> section for the users (<strong>beginner</strong> to intermediate) who <strong>want</strong> to work with <strong>various</strong> JavaScript <strong>problems</strong> and write scripts online to <strong>test</strong> their JavaScript <strong>skill</strong>.</p>
+  </body>
+  </html>
+```
+
+13. Write a JavaScript program to get the width and height of the window (any time the window is resized).

@@ -144,3 +144,6 @@ Select your favorite Color :
 <input type="button" onclick="getOptions()" value="Count and Output all items">
 </form></body></html>
 ```
+
+10. Write a JavaScript program to calculate the volume of a sphere.
+

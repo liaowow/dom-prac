@@ -90,5 +90,15 @@ function getOptions() {
     alert(`Number of items is ${numOfItems}. You picked ${selectedItem}.`)
 }
 
+function getVolume() {
+    let radius = Number(document.querySelector("#radius").value)
+    // formula for a sphere's volume: 
+    // (4 * pi * r * r * r) / 3
+    let volume = (4 * Math.PI * radius * radius * radius) / 3
+    // round the number
+    volume = Math.round(volume)
+    document.querySelector("#volumeOutput").value = volume
+}
+
 
 /*** Render Functions ***/

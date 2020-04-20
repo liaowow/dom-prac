@@ -11,16 +11,13 @@
 </head> 
 
 <body>
-
+    <p>Input radius value and get volume of a sphere.</p>
     <form>
-        Select your favorite Color :
-        <select id="mySelect">
-            <option>Red</option>
-            <option>Green</option>
-            <option>Blue</option>
-            <option>White</option>
-        </select>
-        <input type="button" onclick="getOptions()" value="Count and Output all items">
+        <label>Radius</label>
+        <input type="text" id="radius">
+        <label>Volume</label>
+        <input type="text" id="volumeOutput" placeholder="0.0000">
+        <input type="button" onclick="getVolume()" value="Calculate">
     </form>
 
 </body>

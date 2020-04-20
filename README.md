@@ -146,4 +146,20 @@ Select your favorite Color :
 ```
 
 10. Write a JavaScript program to calculate the volume of a sphere.
+```html
+<p>Input radius value and get volume of a sphere.</p>
+<form>
+    <label>Radius</label>
+    <input type="text" id="radius">
+    <label>Volume</label>
+    <input type="text" id="volumeOutput" placeholder="0.0000">
+    <input type="button" onclick="getVolume()" value="Calculate">
+</form>
+```
 
+11. Write a JavaScript program to display a random image (clicking on a button) from the following list.
+```html
+"http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg", width: "240", height: "160"
+"http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg", width: "320", height: "195"
+"http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg", width: "500", height: "343"
+```

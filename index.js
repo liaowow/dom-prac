@@ -82,4 +82,13 @@ function removecolor() {
     selected.remove(selected.selectedIndex)
 }
 
+function getOptions() {
+    let mySelect = document.querySelector("#mySelect")
+    let numOfItems = mySelect.length
+    let selectedItem = mySelect[mySelect.selectedIndex].value
+
+    alert(`Number of items is ${numOfItems}. You picked ${selectedItem}.`)
+}
+
+
 /*** Render Functions ***/

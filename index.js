@@ -143,3 +143,14 @@ function return_normal() {
 }
 
 /*** EXERCISE 13 ***/
+let windowSizeDisplay = document.querySelector("#displayWindowSize")
+function getWindowSize() {
+    let cWidth = document.documentElement.clientWidth
+    let cHeight = document.documentElement.clientHeight
+    let wWidth = window.innerWidth
+    let wHeight = window.innerHeight
+    windowSizeDisplay.innerHTML = `
+    <p>Client Width: ${cWidth} Client Height: ${cHeight}</p>
+    <p>Window Width: ${wWidth} Window Height: ${wHeight}</p>
+    `
+}

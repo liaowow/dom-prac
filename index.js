@@ -75,4 +75,11 @@ function createTable() {
     }
 }
 
+function removecolor() {
+    // grab DOM element
+    let selected = document.querySelector("#colorSelect")
+    // remove selected index
+    selected.remove(selected.selectedIndex)
+}
+
 /*** Render Functions ***/

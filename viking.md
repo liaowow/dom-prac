@@ -3,6 +3,7 @@
 1. Change the `<h1>` to something cheeky
 
 2. Inside the container for "Upcoming Traversals", create and insert an ordered list of upcoming traversals.
+
 3. Make all sad classes into happy ones.
 
 4. Make the annoying popup link point instead to http://www.cashcats.biz.

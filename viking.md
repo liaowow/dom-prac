@@ -1,4 +1,4 @@
-### Your objective is for the scripts in your script file to cause the desired changes in the HTML page. You can't edit the HTML -- only your JavaScript. Whenever the page refreshes, it should look the way you want it to and not the way it originally was.
+#### Your objective is for the scripts in your script file to cause the desired changes in the HTML page. You can't edit the HTML -- only your JavaScript. Whenever the page refreshes, it should look the way you want it to and not the way it originally was.
 
 1. Change the `<h1>` to something cheeky
 
@@ -12,3 +12,5 @@
 6. Replace the ellipsis ... in one of the suggested topics with the content of your choice -- but do so by traversing from a different element.
 
 7. Replace the form input with a `<textarea>` instead of a `<input type="text">`.
+
+Resource: https://www.vikingcodeschool.com/falling-in-love-with-javascript/practice-with-dom-manipulation
